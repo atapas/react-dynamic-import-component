@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-
+      <h3>Explicit Import</h3>
       <div className="btn-set">
         <Button variant="outline-info" onClick={() => selectDemo('shape')}>Shape Demo</Button>{' '}
         <Button variant="outline-info" onClick={() => selectDemo('color')}>Color Demo</Button>{' '}
