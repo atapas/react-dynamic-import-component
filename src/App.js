@@ -20,7 +20,7 @@ function App() {
     const promise =
       filtered.map(async demo => {
         const Demo = await importDemo(demo.file);
-        return <Demo />;
+        return <Demo key={demo.id} />;
       });
 
     Promise.all(promise).then(setSelectedDemo);
@@ -39,20 +39,19 @@ function App() {
       <div className="btn-set">
         {
           mataDemoData.map((demoData, index) => (
-            <>
+            <React.Fragment key = {index}>
               <Button 
-                key = {index}
                 variant="outline-info" 
                 onClick={() => selectDemo(demoData.file)}>{demoData.name}
               </Button> {' '}
-            </>
+            </React.Fragment>
           ))
         }
       </div>
 
       <div className="demo-ground">
         <React.Suspense fallback='Loading views...'>
-          <div className='container'>{selectedDemo}</div>
+          {selectedDemo}
         </React.Suspense>
       </div>
       
