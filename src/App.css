@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  padding: 10px;
+}
+
+.App .demo-ground {
+  margin: 30px auto 30px auto;
+}
+
+.App .demo-ground .demo {
+  margin: 30px;
+}
+
+

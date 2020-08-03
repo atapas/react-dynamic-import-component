@@ -1,0 +1,39 @@
+{
+    "data": [
+        {
+            "name": "Shape Demo",
+            "description": "This is all about learning the shapes",
+            "file": "shape-demo",
+            "tags": [
+                "shape",
+                "edges",
+                "vertics",
+                "angles"
+            ]
+        },
+        {
+            "name": "Color Demo",
+            "description": "This is all about learning the colors",
+            "file": "color-demo",
+            "tags": [
+                "color",
+                "hex",
+                "rgb",
+                "primary"
+            ]
+        },
+        {
+            "name": "Size Demo",
+            "description": "This is all about learning the size",
+            "file": "size-demo",
+            "tags": [
+                "size",
+                "height",
+                "width",
+                "color",
+                "shape"
+            ]
+        }
+
+    ]
+}
