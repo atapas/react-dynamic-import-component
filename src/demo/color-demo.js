@@ -2,7 +2,7 @@
 import React from 'react';
 import { Circle } from 'react-feather';
 
-const ColorDemo = () => {
+export default () => {
     const colorMap = [
         '#A63578',
         'teal',
@@ -28,5 +28,3 @@ const ColorDemo = () => {
         </>
     )
 };
-
-export default ColorDemo;

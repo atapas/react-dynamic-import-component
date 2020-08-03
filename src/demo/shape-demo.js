@@ -2,7 +2,7 @@
 import React from 'react';
 import { Square, Triangle, Circle, Box, Heart, Hexagon } from 'react-feather';
 
-const ShapeDemo = () => {
+export default () => {
 
     return(
         <>
@@ -19,5 +19,3 @@ const ShapeDemo = () => {
         </>
     )
 };
-
-export default ShapeDemo;

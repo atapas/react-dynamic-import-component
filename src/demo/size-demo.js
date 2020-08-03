@@ -2,7 +2,7 @@
 import React from 'react';
 import { Circle } from 'react-feather';
 
-const SizeDemo = () => {
+export default () => {
     const sizeMap = [
         '16',
         '32',
@@ -29,5 +29,3 @@ const SizeDemo = () => {
         </>
     )
 };
-
-export default SizeDemo;
