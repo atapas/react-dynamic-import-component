@@ -1,6 +1,7 @@
 {
     "data": [
         {
+            "id": "shape",
             "name": "Shape Demo",
             "description": "This is all about learning the shapes",
             "file": "shape-demo",
@@ -12,6 +13,7 @@
             ]
         },
         {
+            "id": "color",
             "name": "Color Demo",
             "description": "This is all about learning the colors",
             "file": "color-demo",
@@ -23,6 +25,7 @@
             ]
         },
         {
+            "id": "size",
             "name": "Size Demo",
             "description": "This is all about learning the size",
             "file": "size-demo",
