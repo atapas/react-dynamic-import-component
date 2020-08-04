@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Shape, Color and Size App
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). This is a Project to showcase how the dynamic imports, lazy and suspense works.
 
 ## Available Scripts
 

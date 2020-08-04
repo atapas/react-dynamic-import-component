@@ -50,7 +50,7 @@ function App() {
       </div>
 
       <div className="demo-ground">
-        <React.Suspense fallback='Loading views...'>
+        <React.Suspense fallback='Loading demo, hang on...'>
           {selectedDemo}
         </React.Suspense>
       </div>
