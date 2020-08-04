@@ -1,6 +1,12 @@
 # Shape, Color and Size App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). This is a Project to showcase how the dynamic imports, lazy and suspense works.
 
+## Demo
+
+[CLICK HERE](https://react-dynamic-import.netlify.app/) for Demo
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5be3ce1f-70c9-452d-8e87-5e53883f5f2b/deploy-status)](https://app.netlify.com/sites/react-dynamic-import/deploys)
+
 ## Available Scripts
 
 In the project directory, you can run:
